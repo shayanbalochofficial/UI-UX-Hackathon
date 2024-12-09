@@ -1,10 +1,9 @@
-// SignInPage
+
 import Navbar from "@/components/Nav2";
 // import Image from "next/image";/
 import Link from "next/link";
 import Header from "./header";
 import { FaGoogle, FaApple } from "react-icons/fa";
-// import { IoChevronForwardOutline } from "react-icons/io5";
 
 export default function SignInPage() {
   return (
@@ -13,7 +12,7 @@ export default function SignInPage() {
       <Navbar />
       <Header />
 
-      {/* Signin Form */}
+      {/* Signup Form */}
       <section className="py-16">
         <div className="container mx-auto max-w-md bg-white shadow-lg rounded-md p-8">
           <h3 className="text-2xl font-bold mb-6 text-center">Sign Up</h3>
