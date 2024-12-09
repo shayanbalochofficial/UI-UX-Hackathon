@@ -1,10 +1,9 @@
-// SignInPage
 import Navbar from "@/components/Nav2";
 // import Image from "next/image";/
 import Link from "next/link";
 import Header from "./header";
 import { FaGoogle, FaApple } from "react-icons/fa";
-// import { IoChevronForwardOutline } from "react-icons/io5";
+
 
 export default function SignInPage() {
   return (
